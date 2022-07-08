@@ -1,35 +1,16 @@
-@font-face {
-  font-family: 'Patua One';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("fonts/PatuaOne-Medium.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: 'Noto Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("fonts/NotoSans-Medium.ttf") format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+@import url("./fonts/fonts.css");
 
 body {
 	background-color: black;
 	color: white;
 	overflow: hidden;
-
 	background: linear-gradient(-30deg, #000000, #150050, #3F0071, #610094);
 	background-size: 400% 400%;
 	animation: gradient 30s ease-in-out infinite;
 	height: 100vh;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	font-family: 'Noto Sans', sans-serif;
 	flex-direction: column;
 }
@@ -49,7 +30,7 @@ h1 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-radius: 32px;
-	border: 1px solid rgba(255, 255, 255, 0.4);
+	border: 1px solid rgba(255, 255, 255, 0.25);
 	min-width: 40vw;
 	font-size: 22px;
 }
